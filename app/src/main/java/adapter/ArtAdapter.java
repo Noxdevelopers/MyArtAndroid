@@ -23,7 +23,7 @@ public class ArtAdapter extends RecyclerView.Adapter<ArtAdapter.ArtViewHolder> {
 
     @NonNull
     @Override
-    public ArtAdapter.ArtViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+    public ArtViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         return null;
     }
 
