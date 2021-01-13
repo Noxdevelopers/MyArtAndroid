@@ -7,4 +7,21 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <color name="home_color_light_red">#fdebea</color>
+    <color name="sort_color_light_blue">#e1f1f9</color>
+    <color name="chat_color_light_green">#e5f4e7</color>
+    <color name="profile_color_light_purple">#eee9f1</color>
+
+    <color name="home_icon_inactive">#e27371</color>
+    <color name="sort_icon_inactive">#63b7f1</color>
+    <color name="chat_icon_inactive">#80c585</color>
+    <color name="profile_icon_inactive">#b46ac0</color>
+
+    <color name="home_icon_active">#f13d35</color>
+    <color name="sort_icon_active">#3aa8d9</color>
+    <color name="chat_icon_active">#50ac56</color>
+    <color name="profile_icon_active">#9f36af</color>
+
+    <color name="light_white">#AAAAAA</color>
 </resources>

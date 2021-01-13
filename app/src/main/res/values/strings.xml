@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">My Art</string>
+
+    <string name="home">خانه</string>
+    <string name="sort">دسته بندی</string>
+    <string name="chat">چت</string>
+    <string name="profile">پروفایل</string>
 </resources>

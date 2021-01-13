@@ -1,18 +1,86 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
-
-    <TextView
-        android:layout_width="wrap_content"
+    <com.gauravk.bubblenavigation.BubbleNavigationConstraintView
+        android:id="@+id/top_navigation_constraint"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_marginBottom="380dp"
+        android:background="@drawable/nav_background"
+        android:elevation="4dp"
+        android:padding="12dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginTop="11dp"
+        app:bnc_mode="spread"
+        tools:ignore="MissingConstraints">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <com.gauravk.bubblenavigation.BubbleToggleView
+            android:id="@+id/a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:bt_active="true"
+            app:bt_colorActive="@color/home_icon_active"
+            app:bt_colorInactive="@color/home_icon_inactive"
+            app:bt_icon="@drawable/ic_baseline_home_24"
+            app:bt_title="@string/home"
+            app:bt_padding="16dp"
+            app:bt_titlePadding="16dp"
+            app:bt_shape="@drawable/home_btn_shape"
+            />
+
+        <com.gauravk.bubblenavigation.BubbleToggleView
+            android:id="@+id/b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:bt_active="true"
+            app:bt_colorActive="@color/sort_icon_active"
+            app:bt_colorInactive="@color/sort_icon_inactive"
+            app:bt_icon="@drawable/ic_baseline_sort_24"
+            app:bt_title="@string/sort"
+            app:bt_padding="16dp"
+            app:bt_titlePadding="16dp"
+            app:bt_shape="@drawable/sort_btn_shape"/>
+
+
+
+        <com.gauravk.bubblenavigation.BubbleToggleView
+            android:id="@+id/c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:bt_active="true"
+            app:bt_colorActive="@color/chat_icon_active"
+            app:bt_colorInactive="@color/chat_icon_inactive"
+            app:bt_icon="@drawable/ic_baseline_chat_bubble_24"
+            app:bt_title="@string/chat"
+            app:bt_padding="16dp"
+            app:bt_titlePadding="16dp"
+            app:bt_shape="@drawable/chat_btn_shape"/>
+
+
+        <com.gauravk.bubblenavigation.BubbleToggleView
+            android:id="@+id/c_item_rest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:bt_active="true"
+            app:bt_colorActive="@color/profile_icon_active"
+            app:bt_colorInactive="@color/profile_icon_inactive"
+            app:bt_icon="@drawable/ic_baseline_person_24"
+            app:bt_title="@string/profile"
+            app:bt_padding="16dp"
+            app:bt_titlePadding="16dp"
+            app:bt_shape="@drawable/profile_btn_shape"/>
+
+
+
+        <!-- Add more child items here - max upto 5 -->
+
+    </com.gauravk.bubblenavigation.BubbleNavigationConstraintView>
+
+
+
+</RelativeLayout>
