@@ -1,8 +1,20 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">My Art</string>
 
-    <string name="home">خانه</string>
-    <string name="sort">دسته بندی</string>
-    <string name="chat">چت</string>
-    <string name="profile">پروفایل</string>
+    <string name="home" tools:ignore="MissingTranslation">خانه</string>
+    <string name="sort" tools:ignore="MissingTranslation">دسته بندی</string>
+    <string name="chat" tools:ignore="MissingTranslation">چت</string>
+    <string name="profile" tools:ignore="MissingTranslation">پروفایل</string>
+    <string name="example_email" tools:ignore="MissingTranslation">something@example.com</string>
+    <string name="login_text" tools:ignore="MissingTranslation">ورود به حساب کاربری</string>
+    <string name="register_text" tools:ignore="MissingTranslation">ایجاد حساب کاربری</string>
+    <string name="email" tools:ignore="MissingTranslation">ایمیل</string>
+    <string name="fullName_textView" tools:ignore="MissingTranslation">نام و نام خانوادگی</string>
+    <string name="example_phone" tools:ignore="MissingTranslation">09121234567</string>
+    <string name="example_fullName" tools:ignore="MissingTranslation">امیر محمدی</string>
+    <string name="textView_phone" tools:ignore="MissingTranslation">شماره موبایل</string>
+    <string name="login_button" tools:ignore="MissingTranslation">ورود</string>
+    <string name="register_button" tools:ignore="MissingTranslation">ثبت نام</string>
+    <string name="login_register" tools:ignore="MissingTranslation">هنوز ثبت نام نکرده اید؟</string>
+    <string name="register_login" tools:ignore="MissingTranslation">من قبلا ثبت نام کردم!</string>
 </resources>

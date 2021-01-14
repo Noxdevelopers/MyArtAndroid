@@ -24,4 +24,6 @@
     <color name="profile_icon_active">#9f36af</color>
 
     <color name="light_white">#AAAAAA</color>
+    <color name="editText_login_gray">#9F9F9F</color>
+    <color name="textView_register_gray">#5C5C5C</color>
 </resources>
