@@ -25,5 +25,6 @@ public class ROUTER {
     public static String INPUT_START      = "START";
     public static String INPUT_AD_ID      = "AD_ID";
     public static String INPUT_IMAGE      = "IMAGE";
+    public static final String SUCCESS    = "SUCCESS";
 
 }
